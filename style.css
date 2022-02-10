@@ -43,14 +43,18 @@ table {
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'RobotoR', sans-serif;
     background-image: url(martix.jpg);
     background-attachment: fixed;
     font-size: 1.5em;
 }
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'RobotoL';
     src: url(RobotoCondensed-Light.ttf);
+}
+@font-face {
+    font-family: 'RobotoR';
+    src: url(RobotoCondensed-Regular.ttf);
 }
 div.center {
     text-align: center;
@@ -86,6 +90,21 @@ p.quote {
     font-size: 1.2em;
 }
 ul {
-    padding-left: 10%;
+    padding-left: 20%;
     list-style: disc;
+}
+li {
+    padding: 0.3%;
+}
+p.service {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p.mail {
+    display: inline-block;
+}
+p.tel {
+    display: inline-block;
 }
